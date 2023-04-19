@@ -1,0 +1,326 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui;
+    margin: 0;
+    border-top: 5px solid hsl(171, 66%, 44%);  
+}
+@media(max-width:767px){
+    .ios{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mac{
+        width: 100%;
+    }
+
+    .four{
+        text-align: center;
+    }
+    .four .image{
+        margin-bottom: 25px;
+    }
+    .eit{
+        flex-direction: column;
+        text-align: center;
+    }
+    .eit p{
+        margin-bottom: 20px;
+    }
+    .nine {
+        flex-direction: column;
+        text-align: center;    
+    }
+    
+    .nine img{
+        margin-bottom: 42px;
+    }
+    footer {
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 4px solid hsl(171, 66%, 44%); 
+
+    } 
+    .links ul{
+        flex-direction: column;
+    }
+    .icon {
+        margin-bottom: 20px;
+    }
+
+
+
+
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* start headet*/
+.header{
+    width: 100%;
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: cover;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 64px;
+}
+.header img {
+    margin-top: 50px;
+}
+h2{
+    color: rgb(99, 96, 96);
+    margin-bottom: 10px;
+}
+/* End headet*/
+
+/* start second*/
+.second {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.second p{
+    color: rgb(165, 161, 161);
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+/* buttun code*/
+.ios{
+    background-color:hsl(171, 66%, 44%);
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.ios:hover{
+    cursor: pointer;
+    background-color:hsl(171, 46%, 61%);
+}
+.mac{
+    background-color:hsl(233, 100%, 69%);
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.mac:hover{
+    cursor: pointer;
+    background-color:hsl(233, 65%, 70%);
+}
+/* End buttun code */
+/* End second*/
+
+/* Start three*/
+.three{
+    width: 100%;
+    text-align: center;
+    margin-bottom:96px;
+}
+
+.three p{
+    color: rgb(165, 161, 161);
+    line-height: 20px;
+    font-size: 14px;
+    margin: 0 10px auto;
+}
+/* End three*/
+
+/* Start four*/
+.four{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin-bottom: 64px;
+}
+
+.four .image img{
+    width: 100%;
+    height: 300px;
+}
+.four .text{
+   width:250px;
+}
+.four .text .svg-icon{
+    width: 24px;
+    height: 24px;
+    stroke: hsl(171, 66%, 44%);
+}
+span {
+    position: relative;
+    top: -6px;
+    text-transform: capitalize;
+    color: rgb(22, 21, 21);
+    margin-bottom: 8px;
+    margin-left: 3px;
+}
+
+.four .text p{
+    color: rgb(165, 161, 161);
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/* .four h3{
+    color: rgb(99, 96, 96);
+    margin-bottom: 8px;
+} */
+/* End four*/
+
+/* Start five*/
+.five{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.five p{
+    color: rgb(165, 161, 161);
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+/* End five*/
+
+/* Start six*/
+.six {
+    width: 90%;
+    height: 320px;
+    text-align: center;
+    margin: 40px 10px auto;
+}
+.six img{
+    width: 100%;
+    height: 320px;
+}
+/* End six*/
+
+/*Start seven*/
+.seven{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.seven p{
+    color: rgb(165, 161, 161);
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 7px;  
+}
+/*End seven*/
+
+/*Start eit*/
+.eit{
+    display: flex;
+    width: 100%;
+    margin-bottom: 96px;
+    gap: 32px;
+    justify-content: space-between;
+}
+    
+.eit p{
+    color: rgb(165, 161, 161);
+    line-height: 25px;
+    font-size: 14px; 
+}
+.eit .big-icon{
+    width: 50px;
+    height: 50px;
+    stroke: hsl(171, 66%, 44%);
+    margin-bottom: 12px;
+}
+.eit h3{
+    color: rgb(99, 96, 96);
+}
+
+/*End eit*/
+
+/* Start nine*/
+.nine{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 96px;
+}
+/* End nine*/
+
+/* Start ten*/
+.ten{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 96px;
+}
+.ten p{
+    color: rgb(165, 161, 161);
+    line-height: 25px;
+    font-size: 14px; 
+    margin-bottom: 24px;
+}
+/* End ten*/
+/* 0922416569 */
+/* Start footer*/
+footer {
+    width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content:space-around;
+    background-color: rgb(236, 235, 235);
+    border-top: 4px solid hsl(171, 66%, 44%); 
+}
+.logo img{
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+}
+.links{
+    width: 40%;
+}
+.links ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 20px;
+    margin-top: 20px;
+}
+.links ul li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(99, 96, 96);
+}
+/* .icon{
+    width: 25%;
+} */
+.icon ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+ul li:hover{
+    color:hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+/* End footer*/
